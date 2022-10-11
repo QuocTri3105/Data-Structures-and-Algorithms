@@ -1,0 +1,6 @@
+f=open('C:/Users/Quoc Tri/Desktop/Bai Tap Python/onFile/in.inp','r')
+f.readline()
+print(f.tell())
+data=f.read().split()
+print(data)
+f.close()
